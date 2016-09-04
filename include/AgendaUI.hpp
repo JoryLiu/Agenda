@@ -9,6 +9,11 @@ class AgendaUI {
    public:
     AgendaUI();
     void OperationLoop(void);
+    
+    /**
+     * quit the Agenda
+     */
+    void quitAgenda(void);
 
    private:
     /**
@@ -42,11 +47,6 @@ class AgendaUI {
      * user logout
      */
     void userLogOut(void);
-    
-    /**
-     * quit the Agenda
-     */
-    void quitAgenda(void);
 
     /**
      * delete a user from storage
